@@ -561,7 +561,7 @@ Ao excluir uma categoria você pode informar uma categoria para substitui-la, to
 
 ### Request:
 
-```PUT /categories/6```
+```PUT /credit_cards/6```
 
 #### Body:
 
