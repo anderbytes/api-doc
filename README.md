@@ -96,8 +96,31 @@ Uma tentativa de criar ou atualizar um registro inválido. No exemplo abaixo o u
 }
 ```
 
-Usuários
-====
+# Listar usuários
+
+### Request:
+
+```GET /users```
+
+### Response:
+
+```json
+[
+    {
+        "id": 3,
+        "name": "Esdras Mayrink",
+        "email": "falecom@email.com.br",
+        "role": "admin"
+    },
+    {
+        "id": 4,
+        "name": "John Doe",
+        "email": "johndoe@email.com",
+        "role": "peasant"
+    }
+]
+```
+
 # Detalhar usuário
 
 ### Request:
